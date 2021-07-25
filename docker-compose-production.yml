@@ -15,7 +15,7 @@ services:
     restart: always
     working_dir: /home/node/app
     volumes: 
-        -./mycode/index.js:/home/node/app/index.js
+        - ./mycode/index.js:/home/node/app/index.js
     ports: 
         - "3000:3000"
         - "3001:3001"
