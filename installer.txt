@@ -21,3 +21,7 @@ sudo git clone https://github.com/warmind2x/ioticos_warmind2x_services.git
 mv ioticos_warmind2x_services
 
 cd services
+
+// Warning .env
+
+sudo docker-compose -f docker-compose-production.yml up
